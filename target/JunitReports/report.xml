@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="3" time="7.236">
+    <testcase classname="HRMS" name="LoginLogout" time="6.763">
+        <system-out><![CDATA[Given Open Application......................................................passed
+When Verify Title...........................................................passed
+When Login into application.................................................passed
+When Logout from application................................................passed
+Then Close Application......................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Feature to Login Functionality" name="Check Login with Valid Credentials" time="0.013">
+        <system-out><![CDATA[Given User is on Login Page.................................................passed
+When User Enter username and password.......................................passed
+And Click on Login button...................................................passed
+Then User is navigated to the home page.....................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Feature to Login Functionality" name="Check Login with Valid Credentials" time="0.058">
+        <system-out><![CDATA[Given User is on Login Page.................................................passed
+When User Enter username and password.......................................passed
+And Click on Login button...................................................passed
+Then User is navigated to the home page.....................................passed
+]]></system-out>
+    </testcase>
+</testsuite>
